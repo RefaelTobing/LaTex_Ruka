@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1790172895.46488 "c:/Users/Refael Tobing/Downloads/LaTex/RUKA.tex" "RUKA.pdf" "RUKA" 1790172896.65184 0
+["pdflatex"] 1792565823.26609 "d:/Code/Kuliah/SEMESTER 3/Workshop Pemrograman FrameWork/LaTex_Ruka/RUKA.tex" "RUKA.pdf" "RUKA" 1792565824.49922 0
   "C:/Users/Refael Tobing/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1790132346 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Refael Tobing/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1788782606 13376988 19d4e8fea4e089b02894dfa49ae66b6d ""
   "C:/Users/Refael Tobing/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -60,9 +60,9 @@
   "C:/Users/Refael Tobing/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/Refael Tobing/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Refael Tobing/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/Refael Tobing/Downloads/LaTex/RUKA.tex" 1790172887 6154 2acd9d5e446f0d720c3937d33fd35641 ""
-  "RUKA.aux" 1790172896 515 4dca116e7b1df9723fa181b252ee41bb "pdflatex"
-  "RUKA.tex" 1790172887 6154 2acd9d5e446f0d720c3937d33fd35641 ""
+  "RUKA.aux" 1792565824 1007 95e9d3b37ba81f017458c1f1a43905c9 "pdflatex"
+  "RUKA.tex" 1792565816 13641 4544a17cf978456d36aa63c7196e0387 ""
+  "d:/Code/Kuliah/SEMESTER 3/Workshop Pemrograman FrameWork/LaTex_Ruka/RUKA.tex" 1792565816 13641 4544a17cf978456d36aa63c7196e0387 ""
   (generated)
   "RUKA.aux"
   "RUKA.log"

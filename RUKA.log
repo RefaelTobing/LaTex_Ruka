@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.7)  23 SEP 2026 21:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.7)  21 OCT 2026 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -336,23 +336,81 @@ LaTeX Warning: No \author given.
 
 LaTeX Warning: No \author given.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+
+Underfull \hbox (badness 2662) in paragraph at lines 63--64
+\OT1/ptm/m/n/10 pelayanan pub-lik melalui ap-likasi JAKI, ter-ma-suk fi-tur
+ []
+
+[1{C:/Users/Refael Tobing/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/
+Users/Refael Tobing/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+
+
+]
+Underfull \hbox (badness 1688) in paragraph at lines 73--74
+\OT1/ptm/m/n/10 di-rangkum pada Tabel I[]. Peneli-tian yang dite-laah telah
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
 
 
 (C:\Users\Refael Tobing\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.f
 d
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
 
 
 (C:\Users\Refael Tobing\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.f
 d
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1629) in paragraph at lines 58--59
-\OT1/ptm/m/it/8 Ton per Hari, Bisa Berku-rang karena Masyarakat Masif Memi-
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+[]\OT1/ptm/b/n/7 Kekurangan dalam kon-teks Ruka
  []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 87--87
+[]\OT1/ptm/m/n/7 Pak, Chua, dan Vande
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]\OT1/ptm/m/n/7 Partisipasi pela-po-ran berbeda
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 87--87
+\OT1/ptm/m/n/7 an-tarkawasan dan berpotensi ku-rang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+\OT1/ptm/m/n/7 mewak-ili ko-mu-ni-tas berpen-da-p-atan
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 87--88
+[]\OT1/ptm/m/n/7 Berfokus pada la-po-ran masalah kota di
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 89--89
+\OT1/ptm/m/n/7 la-han, kon-flik peng-gu-naan, dan ke-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+[]\OT1/ptm/m/n/7 Menentukan pri-or-i-tas la-han poten-sial,
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 91--92
+\OT1/ptm/m/n/7 bukan menya-jikan in-for-masi kun-jun-gan
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 ** Conference Paper **
@@ -365,35 +423,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/Refael Tobing/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/
-Users/Refael Tobing/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
-
-] (RUKA.aux)
+[2] [3] (RUKA.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4113 strings out of 467441
- 65695 string characters out of 5403668
- 493137 words of memory out of 5000000
- 33391 multiletter control sequences out of 15000+600000
- 658659 words of font info for 101 fonts, out of 8000000 for 9000
+ 4118 strings out of 467441
+ 65940 string characters out of 5403668
+ 498156 words of memory out of 5000000
+ 33392 multiletter control sequences out of 15000+600000
+ 664350 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,1786b,377s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,9n,65p,1785b,344s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Refael Tobing/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmb8a.pfb><C:/Users/Refael Tobing/AppData/Local/Programs/MiKTeX/fonts/type1/urw
 /times/utmr8a.pfb><C:/Users/Refael Tobing/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on RUKA.pdf (1 page, 53988 bytes).
+Output written on RUKA.pdf (3 pages, 61522 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 28 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -42,41 +42,84 @@ ruang publik, sistem informasi, pelaporan fasilitas, partisipasi masyarakat, Jak
 % =========================
 \section{Latar Belakang}
 
-Jakarta memiliki ribuan ruang terbuka yang berperan sebagai tempat aktivitas sosial dan rekreasi masyarakat. Namun, ketersediaan ruang publik tidak hanya perlu diperhatikan dari sisi jumlah, tetapi juga dari kondisi fasilitas yang tersedia agar ruang tersebut dapat dimanfaatkan secara optimal oleh masyarakat. Oleh karena itu, diperlukan informasi yang dapat membantu masyarakat mengetahui kondisi ruang publik dan fasilitasnya sebelum berkunjung.
+Jakarta memiliki ribuan ruang terbuka yang berperan sebagai tempat aktivitas sosial dan rekreasi masyarakat. % TODO: tambah angka 3.044 ruang terbuka + \cite{} sumbernya (belum ketemu)
+Namun, ketersediaan ruang publik tidak hanya perlu diperhatikan dari sisi jumlah, tetapi juga dari kondisi fasilitas yang tersedia agar ruang tersebut dapat dimanfaatkan secara optimal oleh masyarakat. Oleh karena itu, diperlukan informasi yang dapat membantu masyarakat mengetahui kondisi ruang publik dan fasilitasnya sebelum berkunjung.
 
-Jakarta memiliki 3.044 ruang terbuka yang tersebar di berbagai wilayah. Di sisi lain, proporsi Ruang Terbuka Hijau (RTH) yang tersedia masih berada di bawah target yang ditetapkan dalam kebijakan penataan ruang. Kondisi tersebut menunjukkan bahwa pemanfaatan dan pemantauan ruang publik yang telah tersedia menjadi hal yang penting, terutama dalam memastikan fasilitas yang terdapat di dalamnya dapat digunakan oleh masyarakat secara optimal.
+Proporsi Ruang Terbuka Hijau (RTH) di Jakarta masih berada di bawah target kebijakan penataan ruang. Undang-Undang Nomor 26 Tahun 2007 mengamanatkan proporsi RTH paling sedikit 30 persen dari luas wilayah kota \cite{uu262007}, sedangkan luas RTH Jakarta pada tahun 2025 dilaporkan baru mencapai 3.703,56 hektare atau 5,59 persen \cite{hukmana2026}. Kondisi tersebut menunjukkan bahwa pemanfaatan dan pemantauan ruang publik yang telah tersedia menjadi hal yang penting, terutama dalam memastikan fasilitas yang terdapat di dalamnya dapat digunakan oleh masyarakat.
 
-Pemerintah Provinsi DKI Jakarta telah menyediakan JAKI dengan fitur JakLapor sebagai kanal pengaduan masyarakat untuk berbagai permasalahan di lingkungan kota. Namun, JakLapor memiliki cakupan pengaduan yang luas dan tidak secara khusus berorientasi pada penyajian informasi mengenai ruang publik, fasilitas yang tersedia, serta kondisi fasilitas sebagai referensi masyarakat sebelum berkunjung.
+Pemerintah Provinsi DKI Jakarta telah menyediakan aplikasi Jakarta Kini (JAKI) dengan fitur JakLapor sebagai kanal pengaduan masyarakat untuk berbagai permasalahan di lingkungan kota \cite{jaki}. Namun, JakLapor memiliki cakupan pengaduan yang luas dan tidak secara khusus berorientasi pada penyajian informasi mengenai ruang publik, fasilitas yang tersedia, serta kondisi fasilitas sebagai referensi masyarakat sebelum berkunjung.
 
-Kondisi tersebut menunjukkan adanya kebutuhan terhadap platform pelengkap yang berfokus pada informasi ruang publik, fasilitas yang tersedia, serta kondisi fasilitas berdasarkan data resmi dan partisipasi masyarakat. Ruka Jakarta dikembangkan sebagai platform berbasis web yang mengintegrasikan data ruang publik dari Satu Data Jakarta dengan laporan kondisi fasilitas dari masyarakat.
+Kebutuhan tersebut mendorong pengembangan Ruka Jakarta sebagai platform berbasis web yang mengintegrasikan data ruang publik dari Satu Data Jakarta \cite{satudata_rth} dengan laporan kondisi fasilitas dari masyarakat.
 
 Melalui pendekatan tersebut, masyarakat dapat memperoleh informasi ruang publik secara lebih terstruktur, sedangkan pemerintah dapat memanfaatkan laporan masyarakat sebagai informasi pendukung dalam pemantauan kondisi fasilitas.
 
+Ruka Jakarta membantu masyarakat memperoleh informasi ruang publik dan fasilitasnya sebelum berkunjung. Masyarakat juga dapat melaporkan fasilitas yang rusak, sehingga pemerintah memperoleh informasi tambahan untuk memantau kondisi fasilitas dan menentukan tindak lanjut. Platform ini diharapkan meningkatkan akses informasi dan mendorong partisipasi masyarakat dalam menjaga kualitas ruang publik.
+
+% =========================
+% II. PENELITIAN TERKAIT
+% =========================
+\section{Penelitian Terkait}
+
+Penelitian Noerizkia dan Herawati mengkaji efektivitas pelayanan publik melalui aplikasi JAKI, termasuk fitur JakLapor, menggunakan metode deskriptif kuantitatif. Data dikumpulkan melalui survei dengan skala Likert 1--4 dan dianalisis menggunakan indikator pencapaian tujuan, integrasi, dan adaptasi. Hasilnya menunjukkan nilai rata-rata masing-masing indikator sebesar 3,55, 3,31, dan 3,36. Penelitian ini membantu menjelaskan evaluasi layanan pengaduan digital di Jakarta, tetapi fokusnya adalah efektivitas layanan dan pengalaman pengguna, bukan direktori ruang publik serta rekam kondisi fasilitas per lokasi \cite{jaki}.
+
+Pak, Chua, dan Vande Moere menganalisis 30.041 laporan pada platform FixMyStreet di Brussels sejak 2013. Penelitian tersebut membandingkan sebaran laporan dengan indikator sosiodemografi dari statistik resmi dan data media sosial bergeotag, kemudian menerapkan analisis statistik. Hasilnya menunjukkan perbedaan partisipasi antarkawasan dan mengindikasikan bahwa platform pelaporan crowdsourcing dapat kurang mewakili komunitas berpendapatan rendah. Studi ini relevan untuk memahami pelaporan warga, tetapi objeknya adalah kerusakan lingkungan perkotaan secara umum dan bukan katalog ruang publik beserta fasilitasnya \cite{pak2017}.
+
+Kusumaningtyas mengevaluasi ketersediaan ruang terbuka hijau di Jakarta menggunakan data spasial berupa peta dan tinjauan pustaka. Hasil penelitian menunjukkan bahwa ketersediaan ruang terbuka hijau masih belum mencapai target yang ditetapkan; pengelolaannya juga menghadapi keterbatasan lahan, konflik penggunaan lahan, dan rendahnya kesadaran publik. Kajian tersebut memberikan konteks mengenai pentingnya pengelolaan ruang terbuka hijau, tetapi berfokus pada ketersediaan dan kebijakan ruang, bukan penyajian informasi fasilitas serta riwayat kondisinya pada tiap lokasi \cite{kusumaningtyas2024}.
+
+Aryaguna, Gaffara, Sari, dan Arianto mengembangkan pemodelan prioritas ruang terbuka hijau di Jakarta Barat melalui analisis spasial berbasis GIS. Data instansi pemerintah digunakan dalam analisis wilayah, sedangkan prioritas ditentukan melalui metode pohon keputusan dengan pembobotan AHP berdasarkan masukan pakar. Hasil pemodelan membagi lahan ke dalam lima kelas prioritas dan mengidentifikasi 95,57 hektare sebagai lahan yang sangat diprioritaskan. Penelitian ini mendukung penggunaan data spasial untuk pengelolaan ruang hijau, namun berfokus pada penentuan prioritas lahan dan tidak membahas direktori kunjungan atau pelaporan kondisi fasilitas \cite{aryaguna2022}.
+
+Jung, Al Qassimi, Arar, dan Awad mengevaluasi kondisi fisik serta kepuasan pengguna pada dua taman di Dubai melalui survei lapangan dan data GIS dari pemerintah kota. Hasil analisis menunjukkan bahwa fasilitas anak dan variasi atraksi masih rendah pada kedua taman; fasilitas taman, akses menuju taman, dan ruang pedestrian juga berkaitan dengan kepuasan pengguna. Penulis membatasi kajian pada dua taman dan periode pengamatan tertentu serta menyatakan bahwa faktor rinci lingkungan akses belum dievaluasi. Kajian ini menunjukkan pentingnya informasi fasilitas bagi pengalaman pengguna, tetapi tidak menyediakan mekanisme pelaporan warga yang terhubung dengan lokasi taman \cite{jung2022}.
+
+Perbandingan penelitian terdahulu dan posisi Ruka Jakarta dirangkum pada Tabel~\ref{tab:penelitian-terkait}. Penelitian yang ditelaah telah membahas efektivitas layanan pengaduan, partisipasi digital, pemetaan ruang hijau, dan evaluasi fasilitas taman. Namun, berdasarkan ruang lingkup yang dilaporkan, belum ada satu penelitian tersebut yang menggabungkan direktori ruang publik dengan informasi fasilitas dan pelaporan warga yang terikat pada ruang publik maupun fasilitas tertentu. Ruka Jakarta menempati posisi sebagai sistem informasi pelengkap yang menyatukan pencarian ruang publik, informasi fasilitas, serta pelaporan dan pemantauan status kondisi fasilitas dalam satu alur.
+
+\begin{table*}[!t]
+    \centering
+    \caption{Perbandingan penelitian terdahulu}
+    \label{tab:penelitian-terkait}
+    \scriptsize
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{|c|p{2.5cm}|p{3.7cm}|p{4.0cm}|p{4.4cm}|}
+        \hline
+        \textbf{No.} & \textbf{Peneliti} & \textbf{Metode} & \textbf{Hasil} & \textbf{Kekurangan dalam konteks Ruka Jakarta} \\
+        \hline
+        1 & Noerizkia dan Herawati \cite{jaki} & Deskriptif kuantitatif; survei skala Likert 1--4 dan analisis word cloud. & Skor rata-rata indikator pencapaian tujuan, integrasi, dan adaptasi masing-masing 3,55; 3,31; dan 3,36. & Mengevaluasi efektivitas JAKI, bukan direktori ruang publik atau kondisi fasilitas per lokasi. \\
+        \hline
+        2 & Pak, Chua, dan Vande Moere \cite{pak2017} & Analisis statistik atas 30.041 laporan FixMyStreet, indikator sosiodemografi resmi, dan data media sosial bergeotag. & Partisipasi pelaporan berbeda antarkawasan dan berpotensi kurang mewakili komunitas berpendapatan rendah. & Berfokus pada laporan masalah kota di Brussels, bukan informasi ruang publik dan fasilitas untuk referensi kunjungan. \\
+        \hline
+        3 & Kusumaningtyas \cite{kusumaningtyas2024} & Analisis data spasial/peta dan tinjauan pustaka mengenai ruang terbuka hijau Jakarta. & Ketersediaan ruang terbuka hijau belum mencapai target; ditemukan tantangan lahan, konflik penggunaan, dan kesadaran publik. & Berfokus pada ketersediaan dan kebijakan ruang hijau, bukan kondisi fasilitas dan riwayat laporan pada tiap lokasi. \\
+        \hline
+        4 & Aryaguna \textit{et al.} \cite{aryaguna2022} & Analisis spasial GIS dan pemodelan pohon keputusan dengan pembobotan AHP berbasis masukan pakar. & Membagi lahan ke dalam lima kelas prioritas dan menetapkan 95,57 hektare sebagai prioritas tertinggi. & Menentukan prioritas lahan potensial, bukan menyajikan informasi kunjungan atau menerima laporan kondisi fasilitas. \\
+        \hline
+        5 & Jung \textit{et al.} \cite{jung2022} & Survei lapangan dan analisis data GIS pada dua taman di Dubai. & Fasilitas taman, akses, dan ruang pedestrian berkaitan dengan kepuasan; fasilitas anak dan atraksi masih rendah. & Cakupan terbatas pada dua taman dan periode pengamatan; tidak membahas pelaporan warga yang terhubung ke fasilitas. \\
+        \hline
+    \end{tabular}
+\end{table*}
+
 \begin{thebibliography}{00}
 
-    \bibitem{arifin2024}
-    Arifin, M. H. (2024). \textit{Produksi Sampah di Surabaya Mencapai 1.800 Ton per Hari, Bisa Berkurang karena Masyarakat Masif Memilah}. Suara Surabaya. \url{https://www.suarasurabaya.net/kelanakota/2024/produksi-sampah-di-surabaya-}
+    \bibitem{uu262007}
+    Pemerintah Republik Indonesia, ``Undang-Undang Nomor 26 Tahun 2007 tentang Penataan Ruang,'' 2007.
 
-    \bibitem{antara2024}
-    ANTARA News Jatim. (2024). \textit{Pansus LKPj: Pengelolaan Sampah di Surabaya Belum Maksimal}. \url{https://jatim.antaranews.com/berita/781404/pansus-lkpj-pengelolaan-sampah-di-surabaya-belum-maksimal}
+    \bibitem{hukmana2026}
+    S. Y. Hukmana, ``Luas RTH di Jakarta mencapai 3.700 hektare,'' \textit{Metro TV News}, 20 Apr. 2026. [Online]. Available: \url{https://www.metrotvnews.com/read/bVDCP2dg-luas-rth-di-jakarta-mencapai-3-700-hektare}
 
-    \bibitem{sipsn}
-    Kementerian Lingkungan Hidup dan Kehutanan RI. \textit{Sistem Informasi Pengelolaan Sampah Nasional (SIPSN)}. \url{https://sipsn.menlhk.go.id}
+    \bibitem{jaki}
+    A. Noerizkia and A. R. Herawati, ``Efektivitas pelayanan publik melalui aplikasi Jakarta Kini (JaKi) fitur JakLapor berbasis survei,'' \textit{Journal of Public Policy and Management Review}, vol. 14, no. 2, pp. 716--728, 2025, doi: 10.14710/jppmr.v14i2.50714. [Online]. Available: \url{https://ejournal3.undip.ac.id/index.php/jppmr/article/view/50714}
 
-    \bibitem{big}
-    Badan Informasi Geospasial (BIG). \textit{One Map Indonesia --- Peta Sebaran Lokasi TPA}. \url{https://onemap.big.go.id}
+    \bibitem{satudata_rth}
+    Pemerintah Provinsi DKI Jakarta, ``Data Ruang Terbuka Hijau DKI Jakarta,'' Katalog Data Satu Data Indonesia. [Online]. Available: \url{https://katalog.satudata.go.id/dataset/?tags=Hijau} (diakses 14 Okt. 2026).
 
-    \bibitem{bps}
-    Badan Pusat Statistik Kota Surabaya. \textit{Data Statistik Kependudukan per Kelurahan}. \url{https://surabayakota.bps.go.id}
+    \bibitem{pak2017}
+    B. Pak, A. Chua, and A. Vande Moere, ``FixMyStreet Brussels: Socio-Demographic Inequality in Crowdsourced Civic Participation,'' \textit{Journal of Urban Technology}, vol. 24, no. 2, pp. 65--87, 2017, doi: 10.1080/10630732.2016.1270047.
 
-    \bibitem{satudata}
-    Portal Satu Data Indonesia. \textit{Katalog Data Terbuka}. \url{https://data.go.id} / \url{https://katalog.data.go.id}
+    \bibitem{kusumaningtyas2024}
+    P. I. N. Kusumaningtyas, ``Availability of green open space in Jakarta using GIS analysis,'' \textit{Spatial Planning \& Management Science}, vol. 1, no. 2, 2024. [Online]. Available: \url{https://journal-iasssf.com/index.php/SPMS/article/view/1914}
 
-    \bibitem{worldbank}
-    World Bank Group. \textit{What a Waste Global Database}. \url{https://datacatalog.worldbank.org/search/dataset/0039597}
+    \bibitem{aryaguna2022}
+    P. A. Aryaguna, G. R. Gaffara, D. A. K. Sari, and A. Arianto, ``Green open space priority modelling using GIS analysis in West Jakarta,'' \textit{Indonesian Journal of Geography}, vol. 54, no. 2, pp. 263--271, 2022, doi: 10.22146/ijg.68184.
 
-    \bibitem{oecd}
-    OECD. \textit{Environment Statistics Database}. \url{https://www.oecd.org/en/data/datasets/environment-statistics.html}
+    \bibitem{jung2022}
+    C. Jung, N. Al Qassimi, M. Arar, and J. Awad, ``The Improvement of User Satisfaction for Two Urban Parks in Dubai, UAE: Bay Avenue Park and Al Ittihad Park,'' \textit{Sustainability}, vol. 14, no. 6, Art. no. 3460, 2022, doi: 10.3390/su14063460.
 
 \end{thebibliography}
 
